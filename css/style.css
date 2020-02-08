@@ -1,14 +1,12 @@
 body{
     padding: 0;
-    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    border: 5px solid springgreen;
+    margin: 0 auto;
 }
 
 .header {
     height: 600px;
     background: #87509c;
-    border: 10px solid green;
     
 }
 .container {
@@ -21,7 +19,6 @@ body{
 
 .flex {
     display: flex;
-    border: 1px solid red;
     
 }
 .flex-space-between{
@@ -62,7 +59,6 @@ body{
 
 .flex-center {
     justify-content: center;
-    border: 3px solid blue;
     margin-top: 145px;
     flex-direction: column;
 }
@@ -100,16 +96,14 @@ body{
 
 
 .service {
-    height: 750px;
+    height: auto;
     background: #17c2a4;
     margin: 0;
-    padding-bottom: 1px;
-    border: 10px solid gray;
+    padding-bottom: 120px;
 }
 
 .ser-center {
     justify-content: space-around;
-    margin-top: 120px;
     flex-direction: column;
 }
 
@@ -119,6 +113,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 2px;
+    margin-top: 145px;
 }
 .line {
     align-self: center;
@@ -139,10 +134,10 @@ body{
 
 
 .serv-block {
-    border: 1px solid gold;
     color: white;
     text-align: center;
     width: 200px;
+    margin-right: 50px;
 }
 
 .width-serv-block{
@@ -158,11 +153,10 @@ body{
     font-size: 20px;
 }
 .team {
-    height: 915px;
+    height: auto;
     background: #e7f1f8;
     margin: 0;
-    /*padding-bottom: 1px;*/
-    border: 10px solid gray;
+    padding-bottom: 120px;
 }
 
 .team h1 {
@@ -184,9 +178,10 @@ body{
 }
 
 .team-block {
-    border: 1px solid gold;
     text-align: center;
     width: 200px;
+    margin-left: 50px;
+    padding-bottom: 20px;
 }
 
 .team-block h1 {
@@ -220,14 +215,13 @@ body{
 }
 
 .skills {
-    height: 660px;
+    height: auto;
     margin: 0;
-    border: 10px solid gray;
+    padding-bottom: 120px;
 }
 
 .skills-header {
     margin-top: 115px;
-    border: 11px solid gray;
     flex-direction: column;
     color: #3c4761;
 }
@@ -256,9 +250,9 @@ body{
 
 .skills-block { 
     width: 200px;
-    border: 1px solid gold;
     text-align: center;
     margin-top: 85px;
+    margin-left: 20px;
 }
 .skills-block h1 {
     font-size: 24px;
@@ -267,16 +261,16 @@ body{
 
 .portfolio {
     height: auto;
-    border: 10px solid gray;
+    width: auto;
     background: #ffdd99;
 }
 .portfolio-header {
-    margin-top: 115px;
-    border: 11px solid gray;
     flex-direction: column;
     color: #393939;
 }
 .portfolio-h1{
+    margin-top: 115px;
+
     align-self: center;
 }
 
@@ -334,7 +328,6 @@ body{
     color: #393939;
     font-size: 18px;
     text-transform: uppercase;
-    border: 1px solid yellowgreen;
     margin-left: 20px;
  }
 
@@ -356,19 +349,18 @@ body{
 }
 
 .review {
-    height: 900px;
-    border: 10px solid gray;
+    height: auto;
     background: #d74680;
 }
 .review-header {
-    margin-top: 120px;
-    border: 11px solid gray;
     flex-direction: column;
     color: white;
     margin-bottom: 50px;
 }
 
 .review-h1 {
+    margin-top: 120px;
+
     align-self: center;
 }
 .review-h1 h1 {
@@ -392,7 +384,6 @@ body{
     margin-right: 50px;
 }
 .review-block {
-    border: 1px solid yellowgreen;
     width: 500px;
     flex-direction: row;
     color: white;
@@ -416,12 +407,9 @@ body{
 }
 .contacts {
     height: 820px;
-    border: 10px solid gray;
     background: #3c5499;
 }
 .contacts-header {
-    margin-top: 120px;
-    border: 11px solid gray;
     flex-direction: column;
     color: white;
     margin-bottom: 50px;
@@ -475,7 +463,6 @@ textarea {
 
    .footer {
     height: 115px;
-    border: 10px solid gray;
     background: #344b8e; 
    }
    .footer-inline-menu {
