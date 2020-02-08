@@ -5,8 +5,9 @@ body{
 }
 
 .header {
-    height: 600px;
+    height: auto;
     background: #87509c;
+    padding-bottom: 120px;
     
 }
 .container {
@@ -140,10 +141,6 @@ body{
     margin-right: 50px;
 }
 
-.width-serv-block{
-    width: 1050px;
-    margin: 0 auto;
-}
 .serv-block p {
     font-size: 16px;
 }
