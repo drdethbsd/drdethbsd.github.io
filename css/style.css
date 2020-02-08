@@ -11,7 +11,13 @@ body{
     border: 10px solid green;
     
 }
-
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
 
 .flex {
     display: flex;
@@ -260,7 +266,7 @@ body{
 }
 
 .portfolio {
-    height: 1430px;
+    height: auto;
     border: 10px solid gray;
     background: #ffdd99;
 }
@@ -291,7 +297,9 @@ body{
     text-align: center;
     font-size: 18px;
 }
-
+.portfolio-but {
+    align-self: center;
+}
 .portfolio-menu {
     display: inline-flex;
     margin-top: 45px;
@@ -333,6 +341,7 @@ body{
  .load_button {
     align-self: center;
     margin-top: 80px;
+    margin-bottom: 60px;
     background: #17c2a4;
     color: white;
     border-radius: 5px;
