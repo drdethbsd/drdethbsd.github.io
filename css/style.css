@@ -309,14 +309,14 @@ body{
     font-size: 16px;
     color:#393939;
     border-radius: 7px;
-    padding: 10px  8px;
+    padding: 17px  28px;
     background: #ebc985;
     margin-right: 10px;
 }
 .portfolio li a:hover {
     background-color: white;
     background: white;
-    padding: 10px 8px;
+    padding: 17px 28px;
     border-radius: 7px;
 }
 
