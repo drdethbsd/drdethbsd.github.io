@@ -284,7 +284,7 @@ body{
 }
 .portfolio-p {
     align-self: center;
-    width: 530px;
+    max-width: 530px;
 }
 .portfolio-p p{
     text-align: center;
