@@ -284,6 +284,7 @@ body{
 .portfolio-img {
     align-self: center;
 }
+
 .portfolio-p {
     align-self: center;
     max-width: 530px;
@@ -345,8 +346,8 @@ body{
 	font-weight: bold;
 	font-size: 18px;
 }
-.portfolio img {
-    width: 300px;
+.portfolio-block img {
+    width: 70%;
     height: auto;
 
 }
