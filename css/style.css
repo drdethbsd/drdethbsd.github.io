@@ -398,7 +398,7 @@ body{
 }
 .review-text {
     max-width: 350px;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 .review-text a{
     color: #fcd397;
