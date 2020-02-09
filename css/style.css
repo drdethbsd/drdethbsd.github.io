@@ -137,17 +137,22 @@ body{
 .serv-block {
     color: white;
     text-align: center;
-    width: 200px;
     margin-right: 50px;
+    border: 1px solid red;
 }
 
 .serv-block p {
-    font-size: 16px;
+    font-size: 16px;;
+    border: 1px solid red;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
 }
 
 .serv-block h1 {
     text-transform: uppercase;
     font-size: 20px;
+    border: 1px solid red;
 }
 .team {
     height: auto;
@@ -258,8 +263,8 @@ body{
 
 .portfolio {
     height: auto;
-    width: auto;
     background: #ffdd99;
+    padding-bottom: 100px;
 }
 .portfolio-header {
     flex-direction: column;
@@ -267,8 +272,7 @@ body{
 }
 .portfolio-h1{
     margin-top: 115px;
-
-    align-self: center;
+     align-self: center;
 }
 
 .portfolio-h1 h1{
@@ -315,10 +319,7 @@ body{
     border-radius: 7px;
 }
 
-.portfolio-wrap {
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 .portfolio-block {
     margin-top: 60px;
     text-align: center;
@@ -348,6 +349,7 @@ body{
 .review {
     height: auto;
     background: #d74680;
+    padding-bottom: 100px;
 }
 .review-header {
     flex-direction: column;
@@ -374,17 +376,13 @@ body{
     align-self: center;
 }
 
-.review-wrap{
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: 50px;
-    margin-right: 50px;
-}
 .review-block {
     width: 500px;
     flex-direction: row;
     color: white;
     margin-bottom: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .review-block h1 {
     text-align: left;
