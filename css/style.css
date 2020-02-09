@@ -343,7 +343,11 @@ body{
 	font-weight: bold;
 	font-size: 18px;
 }
+.portfolio img {
+    width: 500px;
+    height: auto;
 
+}
 .review {
     height: auto;
     background: #d74680;
