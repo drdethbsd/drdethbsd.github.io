@@ -116,7 +116,13 @@ body{
     .portfolio nav li a:hover {
         padding: 7px 10px;
     }
+    .footer nav ul {
+        flex-direction: column;
+        align-items: center;
     }
+    
+    }
+   
 
 
 .inline-flex li a:hover {
@@ -530,31 +536,37 @@ textarea {
    }
 
    .footer {
-    height: 115px;
-    background: #344b8e; 
+        height: auto;
+        background: #344b8e; 
+   }
+   .end {
+        display: flex;
+        align-items: center;
+        justify-content: center;
    }
    .footer-inline-menu {
-        display: inline-flex;
-        list-style-type: none;
+        display: flex;
    }
-   .footer-menu {
-       border: 1px solid gold;
-       justify-content: center;
+   .footer-inline-menu li {
+       list-style: none;
    }
-   .footer-menu a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bolder;
-    margin-right: 55px;
-    color: white;
-   }
-   
-   .footer-menu a:hover {
+
+    .footer-inline-menu a {
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bolder;
+        margin-right: 55px;
+        color: white;
+    }  
+
+   .footer-inline-menu a:hover {
        color: #30bae7;
    }
+
    .scale {
     transition: 1s; /* Время эффекта */
    }
+
    .scale:hover {
     transform: scale(1.4); /* Увеличиваем масштаб */
    }
