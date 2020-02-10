@@ -69,7 +69,7 @@ body{
     z-index: -9999;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:950px){
     .header nav ul {
         position: fixed;
         right: -100%;
