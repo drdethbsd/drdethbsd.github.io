@@ -359,6 +359,7 @@ body{
     margin-top: 0px;
     font-size: 40px;
     letter-spacing: 2px;
+    text-align: center;
 }
 .portfolio-img {
     align-self: center;
@@ -452,6 +453,7 @@ body{
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
 }
 .review-img {
     align-self: center;
