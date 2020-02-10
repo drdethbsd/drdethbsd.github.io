@@ -484,7 +484,7 @@ body{
     color: #fcd397;
 }
 .contacts {
-    height: 820px;
+    height: auto;
     background: #3c5499;
 }
 .contacts-header {
@@ -534,7 +534,8 @@ textarea {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 18px;
+    font-size: 18px;
+    margin-bottom: 40px;
    }
    .send-center {
        justify-content: center;
