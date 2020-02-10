@@ -39,11 +39,10 @@ body{
     display: flex;
     align-items: center;
     padding-top: 50px;
-    
+    box-sizing: border-box;
 }
 
 .inline-flex li {
-    margin-left: 11px;
     list-style-type: none;
 }
 
@@ -90,6 +89,9 @@ body{
     }
     .close {
         display: block;
+        margin-top: 50px;
+        color: white;
+        font-size: 30px;
     }
     .fas.fa-times {
         position: absolute;
